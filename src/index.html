@@ -15,9 +15,9 @@
     <title>Frontend Mentor | Sunnyside agency landing page</title>
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
-  <body class="relative">
-    <div class="relative max-w-6xl m-auto"><nav
-      class="absolute flex w-full max-w-6xl justify-between px-8 py-6 text-xl z-10 text-white"
+  <body class="relative ">
+    <div class="relative max-w-screen-xl m-auto"><nav
+      class="absolute flex w-full max-w-screen-xl justify-between px-8 py-6 text-xl z-10 text-white"
     >
       <img src="/images/logo.svg" alt="logo" width="124px" height="24px" />
       <img src="/images/icon-hamburger.svg" alt="menu-icon" id="hamIcon" class="md:hidden cursor-pointer">
@@ -36,10 +36,10 @@
         <a href='#' class="bg-white px-5 py-2 rounded-3xl text-black "><li>Contact</li></a>
       </ul>
     </nav></div>
-    <section class="relative max-w-6xl m-auto">
+    <section class="relative max-w-screen-xl m-auto">
       <h1
         id="creatives"
-        class="text-6xl md:text-5xl text-center absolute left-1/2 top-1/4 -translate-x-1/2 text-white z-0 font-fraunces tracking-widest"
+        class="text-5xl xs:text-6xl md:text-5xl text-center absolute left-1/2 top-1/4 -translate-x-1/2 text-white z-0 font-fraunces tracking-widest"
       >
         WE ARE CREATIVES
       </h1>
@@ -55,12 +55,13 @@
         class="md:hidden"
       />
     </section>
-    <section class="md:flex flex-row-reverse max-w-6xl m-auto">
-      <div class="md:w-1/2">
+    <section class="md:flex flex-row-reverse max-w-screen-xl m-auto">
+      <img src="/images/mobile/image-transform.jpg" alt="egg" class="md:hidden">
+      <div class=" hidden md:block md:w-1/2">
         <img src="/images/desktop/image-transform.jpg" alt="egg" />
       </div>
       <div
-        class="md:w-1/2 flex flex-col justify-center items-center md:items-start px-6 pt-12 md:px-14 lg:px-28"
+        class="md:w-1/2 flex flex-col justify-center items-center md:items-start px-6  py-20 md:pt-12 md:pb-4 md:px-14 lg:px-28"
       >
         <h2
           class="font-fraunces text-3xl text-center md:text-left md:text-2xl lg:text-3xl text-text-title"
@@ -84,12 +85,13 @@
         </div>
       </div>
     </section>
-    <section class="md:flex max-w-6xl m-auto">
+    <section class="md:flex max-w-screen-xl m-auto">
+      <img src="/images/mobile/image-stand-out.jpg" alt="glass" class="md:hidden">
       <div class="md:w-1/2">
-        <img src="/images/desktop/image-stand-out.jpg" alt="egg" />
+        <img src="/images/desktop/image-stand-out.jpg" alt="glass" class="hidden md:block" />
       </div>
       <div
-        class="md:w-1/2 flex flex-col justify-center items-center md:items-start px-6 pt-12 md:px-14 lg:px-28"
+        class="md:w-1/2 flex flex-col justify-center items-center md:items-start py-20 px-6 md:pt-12 md:pb-4 md:px-14 lg:px-28"
       >
         <h2
           class="font-fraunces text-3xl text-center md:text-left md:text-2xl lg:text-3xl text-text-title"
@@ -113,7 +115,7 @@
         </div>
       </div>
     </section>
-    <section class="md:flex max-w-6xl m-auto">
+    <section class="md:flex max-w-screen-xl m-auto">
       <div class="relative">
         <img
           src="/images/mobile/image-graphic-design.jpg"
@@ -162,7 +164,7 @@
         </div>
       </div>
     </section>
-    <section class="pt-12 flex flex-col items-center max-w-6xl m-auto md:py-28">
+    <section class="pt-12 flex flex-col items-center max-w-screen-xl m-auto md:py-28">
       <h2 class="text-2xl font-fraunces text-testi mb-4">
         CLIENT TESTIMONIALS
       </h2>
@@ -208,7 +210,7 @@
         </div>
       </div>
     </section>
-    <section class="max-w-6xl mx-auto">
+    <section class="max-w-screen-xl mx-auto">
       <div class="grid grid-cols-2 md:hidden">
         <img src="/images/mobile/image-gallery-milkbottles.jpg" alt="milk" />
         <img src="/images/mobile/image-gallery-orange.jpg" alt="orange" />
@@ -232,7 +234,7 @@
       </div>
     </section>
     <footer
-      class="py-16 px-12 bg-footer flex flex-col items-center text-footer-text max-w-6xl mx-auto"
+      class="py-16 px-12 bg-footer flex flex-col items-center text-footer-text max-w-screen-xl mx-auto"
     >
       <img
         src="/images/logo.svg"
